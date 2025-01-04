@@ -79,6 +79,7 @@ pub fn build(b: *std.Build) !void {
         .{ .name = "play-opus", .deps = &.{.assets} },
         .{ .name = "sprite", .deps = &.{ .zigimg, .assets } },
         .{ .name = "text", .deps = &.{.assets} },
+        .{ .name = "core-backend-test", .deps = &.{ .zigimg, .assets } },
     };
 
     var sysaudio_tests = [_]SysAudioTest{

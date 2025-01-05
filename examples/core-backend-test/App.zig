@@ -411,7 +411,7 @@ pub fn tick(
             },
             .focus_gained => std.debug.print("focus_gained\n", .{}),
             .focus_lost => std.debug.print("focus_lost\n", .{}),
-            .window_resize => {}, //TODO
+            .window_resize => |ev| std.debug.print("window_resize ({},{})\n", .{ ev.size.width, ev.size.height }),
         }
     }
 

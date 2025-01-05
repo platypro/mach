@@ -11,7 +11,7 @@
 //    Mouse moving, scrolling, pressing, and releasing should output a mouse_motion, mouse_scroll,
 //    mouse_press, and mouse_release event to the console respectively.
 // (05) (event.zoom_gesture)
-//    IDK HOW TO TEST ZOOM_GESTURE
+//    TODO: Document how to test event.zoom_gesture
 // (06) (event.focus_gained, event.focus_lost)
 //    When the window focus is gained or lost, you should see the event logged in the console
 // (07) (event.close)
